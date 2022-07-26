@@ -7,12 +7,6 @@ https://angular-ivy-3m3nw4.stackblitz.io
 に飛ぶと、そのままアプリが起動します。  
 ※画面レイアウトの関係により、スマホでの閲覧を推奨。
 
--Stackblitz.com ShareURL-
-<Editor URL>
- https://stackblitz.com/edit/angular-ivy-3m3nw4?file=src/app/app.component.ts
-<Application URL>
- https://angular-ivy-3m3nw4.stackblitz.io
-
 <使用方法>
 'Remaining score'に0〜180の数字（残りスコア）を入力
 ゲームのオプションを2つ選択。
