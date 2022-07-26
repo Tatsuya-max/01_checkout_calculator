@@ -1,0 +1,17 @@
+<div class="button-wrapper">
+  <button class="go-button" (click)="arrangementService.getArrangement()">GO</button>
+</div>
+<div class="container">
+  <label for="arrangement-result">Arrangement:</label>
+  <div class="arrangement-result">
+    <div *ngIf="arrangementService.arrangement[0]">
+      {{ arrangementService.arrangement[0] }}
+    </div>
+    <div *ngIf="arrangementService.arrangement[1]">
+      {{ arrangementService.arrangement[1] }}
+    </div>
+    <div *ngIf="arrangementService.arrangement[2]">
+      {{ arrangementService.arrangement[2] }}
+    </div>
+  </div>
+</div>

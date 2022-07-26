@@ -1,0 +1,33 @@
+<label id="options" for="radio-buttons">Options</label>
+<div class="out-setting">
+  <input type="radio" name="out-option" id="master-out"
+    (change)="settingItemService.setOutOption(3)"
+    (click)="onClick(3)" />
+  <label for="master-out">Master out</label><br />
+  <input type="radio" name="out-option" id="double-out"
+    (change)="settingItemService.setOutOption(2)"
+    (click)="onClick(2)" />
+  <label for="double-out">Double out</label><br />
+  <input type="radio" name="out-option" id="open-out"
+    (change)="settingItemService.setOutOption(1)"
+    (click)="onClick(1)" />
+  <label for="open-out">Open out</label>
+</div>
+<div class="bull-setting">
+  <input type="radio" name="bull-type" id="separate-bull"
+    (change)="settingItemService.setBullType(2)"
+    [checked]="selectedOutOption===2"
+    [disabled]="selectedOutOption===1" />
+  <label for="separate-bull"
+    [class.disabled]="selectedOutOption===1">
+    Separate bull
+  </label><br />
+  <input type="radio" name="bull-type" id="fat-bull"
+    (change)="settingItemService.setBullType(1)"
+    [checked]="selectedOutOption===1"
+    [disabled]="selectedOutOption===2" />
+  <label for="fat-bull"
+    [class.disabled]="selectedOutOption===2">
+    Fat bull
+  </label><br />
+</div>

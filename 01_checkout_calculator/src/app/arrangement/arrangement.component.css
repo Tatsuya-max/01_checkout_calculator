@@ -1,0 +1,38 @@
+.button-wrapper {
+  text-align: right;
+}
+
+.go-button {
+  color: #333;
+  background-color: #eee;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding: 0;
+  border-radius: 4px;
+  width: 90px;
+  height: 40px;
+
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.go-button:hover {
+  color: #fff;
+  background-color: #42545c;
+}
+
+label {
+  margin-bottom: 0px;
+  font-size: 120%;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.arrangement-result {
+  margin-top: 5px;
+  font-size: 200%;
+  text-align: center;
+  line-height: 45px;
+}
